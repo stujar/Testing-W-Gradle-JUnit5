@@ -1,0 +1,2 @@
+com/nordico/GreetingTest.java
+ com.nordico.GreetingTest
