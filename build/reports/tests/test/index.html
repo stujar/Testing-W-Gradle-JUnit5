@@ -20,7 +20,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">3</div>
+<div class="counter">55</div>
 <p>tests</p>
 </div>
 </td>
@@ -32,13 +32,13 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">0</div>
+<div class="counter">5</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.023s</div>
+<div class="counter">0.189s</div>
 <p>duration</p>
 </div>
 </td>
@@ -47,7 +47,7 @@
 </div>
 </td>
 <td>
-<div class="infoBox success" id="successRate">
+<div class="infoBox skipped" id="successRate">
 <div class="percent">100%</div>
 <p>successful</p>
 </div>
@@ -58,13 +58,41 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Packages</a>
+<a href="#tab0">Ignored tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Packages</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
+<h2>Ignored tests</h2>
+<ul class="linkList">
+<li>
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html">IndexControllerTest</a>.
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html#testIfUserHal()">testIfUserHal()</a>
+</li>
+<li>
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html">IndexControllerTest</a>.
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html#testMeOnJava8()">testMeOnJava8()</a>
+</li>
+<li>
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html">IndexControllerTest</a>.
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html#testMeOnMacOS()">testMeOnMacOS()</a>
+</li>
+<li>
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html">IndexControllerTest</a>.
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html#testTimeout()">testTimeout()</a>
+</li>
+<li>
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html">IndexControllerTest</a>.
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html#testTimeoutPreemptive()">testTimeoutPreemptive()</a>
+</li>
+</ul>
+</div>
+<div id="tab1" class="tab">
 <h2>Packages</h2>
 <table>
 <thead>
@@ -85,13 +113,43 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.023s</td>
+<td>0.017s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="skipped">
+<a href="packages/com.nordico.sfgpetclinic.controllers.html">com.nordico.sfgpetclinic.controllers</a>
+</td>
+<td>12</td>
+<td>0</td>
+<td>5</td>
+<td>0.079s</td>
+<td class="skipped">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/com.nordico.sfgpetclinic.model.html">com.nordico.sfgpetclinic.model</a>
+</td>
+<td>35</td>
+<td>0</td>
+<td>0</td>
+<td>0.056s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success">
+<a href="packages/com.nordico.sfgpetclinic.services.springdatajpa.html">com.nordico.sfgpetclinic.services.springdatajpa</a>
+</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0.037s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="tab1" class="tab">
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thead>
@@ -106,13 +164,66 @@
 </thead>
 <tbody>
 <tr>
-<td class="success">
+<td class="success"/>
 <a href="classes/com.nordico.GreetingTest.html">com.nordico.GreetingTest</a>
-</td>
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.023s</td>
+<td>0.017s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="skipped"/>
+<a href="classes/com.nordico.sfgpetclinic.controllers.IndexControllerTest.html">com.nordico.sfgpetclinic.controllers.IndexControllerTest</a>
+<td>11</td>
+<td>0</td>
+<td>5</td>
+<td>0.077s</td>
+<td class="skipped">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.nordico.sfgpetclinic.controllers.VetControllerTest.html">com.nordico.sfgpetclinic.controllers.VetControllerTest</a>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0.002s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.nordico.sfgpetclinic.model.OwnerTest.html">com.nordico.sfgpetclinic.model.OwnerTest</a>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>0.046s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.nordico.sfgpetclinic.model.PersonTest.html">com.nordico.sfgpetclinic.model.PersonTest</a>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0.002s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.nordico.sfgpetclinic.model.RepeatedPersonTest.html">com.nordico.sfgpetclinic.model.RepeatedPersonTest</a>
+<td>15</td>
+<td>0</td>
+<td>0</td>
+<td>0.008s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="success"/>
+<a href="classes/com.nordico.sfgpetclinic.services.springdatajpa.PetTypeSDJpaServiceIT.html">com.nordico.sfgpetclinic.services.springdatajpa.PetTypeSDJpaServiceIT</a>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0.037s</td>
 <td class="success">100%</td>
 </tr>
 </tbody>
@@ -126,7 +237,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8</a> at Jul 9, 2021, 11:31:00 PM</p>
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at Aug 26, 2021, 2:49:33 PM</p>
 </div>
 </div>
 </body>

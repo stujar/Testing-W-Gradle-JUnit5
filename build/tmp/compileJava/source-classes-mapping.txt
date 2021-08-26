@@ -1,2 +1,0 @@
-com/nordico/Greeting.java
- com.nordico.Greeting
