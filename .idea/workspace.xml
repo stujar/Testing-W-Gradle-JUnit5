@@ -5,74 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bc687b6-b8ba-4981-bbaf-4226fce81ca6" name="Default Changelist" comment="Added files from petclinic prpoject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/controllers/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/controllers/OwnerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/controllers/PetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/controllers/VetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/controllers/VisitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/exceptionhandlers/ValueNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/fauxspring/BindingResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/fauxspring/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/fauxspring/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/fauxspring/ModelAndView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/fauxspring/ModelMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/fauxspring/WebDataBinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/formatters/PetTypeFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/OwnerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/PetType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/Speciality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/Vet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/model/Visit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/OwnerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/PetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/PetTypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/SpecialtyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/VetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/repositories/VisitRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/CrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/OwnerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/PetTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/SpecialtyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/VetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/VisitService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/AbstractMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/OwnerMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/PetMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/PetTypeMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/SpecialityMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/VetMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/map/VisitMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/springdatajpa/OwnerSDJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/springdatajpa/PetSDJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/springdatajpa/PetTypeSDJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/springdatajpa/SpecialitySDJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/springdatajpa/VetSDJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nordico/services/springdatajpa/VisitSDJpaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/ControllerTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/CustomArgsProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/ModelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/RepeatedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/controllers/IndexControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/controllers/VetControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/junitextensions/TimingExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/model/OwnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/model/PersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/model/RepeatedPersonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nordico/sfgpetclinic/services/springdatajpa/PetTypeSDJpaServiceIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/input.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/intro-junit5-gradle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_9_2021_11_22_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.nordico.GreetingTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.nordico.GreetingTest.html" afterDir="false" />
@@ -82,9 +23,6 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,18 +62,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="intro-junit5-gradle" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="intro-junit5-gradle" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="intro-junit5-gradle" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -297,12 +223,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a22d023-936d-42d0-b673-85455a4b9990" name="Default Changelist" comment="" />
       <created>1625884277951</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625884277951</updated>
       <workItem from="1625884279833" duration="2605000" />
+      <workItem from="1630030007445" duration="596000" />
+      <workItem from="1630080650234" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="Created basic Gradle project and added Java and Test classes and ran project.">
       <created>1625886424262</created>
@@ -318,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625887514260</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added files from petclinic prpoject">
+      <created>1630004799973</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630004799973</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
